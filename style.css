@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: sans-serif;
+} 
+/* STYLING FOR home.html */
+.navbar{
+    position: fixed;
+    color:burlywood;
+    background-color:green;
+    height: 10%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar li{
+    text-decoration: none;
+     padding: 5px 15px; 
+}
+.main{
+    background-image: url(./ABUimage2.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: -2;
+    font-size: xx-large;
+}
+section p{
+    font-size: xx-large;
+}
+/* STYLING FOR index.html */
+.nav{
+    position: fixed;
+    background-color:rgb(27, 61, 27); 
+    padding: 0 20 20 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+} 
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+} 
+.nav .logo :hover{
+    color: burlywood;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+.nav a{
+    color: #fff;
+     text-decoration: none;
+     padding: 5px 10px; 
+} 
+a.active{
+    color: red;
+}  
+.hero{
+    background-image: url(./ABUpix1.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: -2;
+}
+.hero .container{
+    color: solid whitesmoke
+}
+.container h2{
+    padding-top: 250px;
+    margin-left: 350px;
+}
+
+h4{
+    font-weight: 10px;
+    margin: 5px;
+    text-decoration: underline;
+    color:green;
+}
+.content{
+    margin: 10px 0;
+} 
+.content p{
+    font-size: 100%;
+    line-height: 20px ;
+    letter-spacing: 1.2px ;
+}
+Table{
+    table-layout: fixed;
+    border-collapse: separate;
+    padding: 2px 2px;
+    margin: 5px 5px; 
+    width: 50%; 
+
+}
+Table,th,td{
+    border: 1px solid black;
+
+}
+th{
+    background-color: rgb(58, 9, 9);
+    border-style: double;
+    color: #fff;
+}
+tr{
+    width: 0px;
+    background-size: 0px;
+}
+td{
+    width: 2px;
+    height: 2px;
+    background-color: burlywood;
+    font-size: small;
+    color: #333;
+    overflow-wrap: break-word;
+}
+table .core{
+    font-size: small;
+    color: #fff;
+    background-color: maroon;
+}
+footer{
+    text-align: center ;
+    padding:  10px;
+    margin-bottom: 3px;
+    background-color:  #333;
+    color:lightgreen;
+    font-style: oblique;
+}
