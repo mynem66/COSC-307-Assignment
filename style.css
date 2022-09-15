@@ -47,9 +47,20 @@ body{
     z-index: -2;
     font-size: xx-large;
 }
-section p{
-    font-size: xx-large;
+.DLC{
+    display: flex;
+    background-color: burlywood;
+    text-align:justify;
+    color:  maroon;
+    padding-top: 10px;
+    
 }
+.DLC figcaption{
+    color:maroon;
+    font-weight: bold;
+}
+
+
 /* STYLING FOR index.html */
 .nav{
     position: fixed;
